@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="true"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="375dp"
+        android:layout_height="75dp"
+        android:src="@drawable/title" />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="375dp"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btn_audio"
+            android:layout_width="375dp"
+            android:layout_height="70dp"
+            android:background="@drawable/bottom"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@+id/linear"
+        android:layout_below="@+id/title">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff"
+            android:orientation="vertical">
+
+            <ImageSwitcher
+                android:id="@+id/imagSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <include layout="@layout/banner1"/>
+            <include layout="@layout/body0"/>
+            <include layout="@layout/body"/>
+            <include layout="@layout/body1"/>
+            <include layout="@layout/body2"/>
+            <include layout="@layout/body3"/>
+            <include layout="@layout/body4"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

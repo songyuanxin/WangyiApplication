@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/title1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:background="@drawable/daohang1"/>
+    <Button
+        android:id="@+id/title2"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:background="@drawable/daohang3"/>
+    <Button
+        android:id="@+id/title3"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:background="@drawable/daohang4"/>
+    <Button
+        android:id="@+id/title4"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:background="@drawable/daohang5"/>
+    <Button
+        android:id="@+id/title5"
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:background="@drawable/daohang6"/>
+    <Button
+        android:id="@+id/title6"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:background="@drawable/daohang2"/>
+
+</LinearLayout>

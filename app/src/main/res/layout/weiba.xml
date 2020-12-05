@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom">
+
+    <Button
+        android:id="@+id/weibabutton3"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/weiba3"/>
+    <Button
+        android:id="@+id/weibabutton1"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:background="@drawable/weiba1"/>
+    <Button
+        android:id="@+id/weibabutton2"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:background="@drawable/weiba2"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/banner1"
+        android:layout_width="75dp"
+        android:layout_height="105dp"
+        android:background="@drawable/banner1" />
+
+    <Button
+        android:id="@+id/banner2"
+        android:layout_width="75dp"
+        android:layout_height="105dp"
+        android:background="@drawable/banner2" />
+
+    <Button
+        android:id="@+id/banner3"
+        android:layout_width="75dp"
+        android:layout_height="105dp"
+        android:background="@drawable/banner3" />
+
+    <Button
+        android:id="@+id/banner4"
+        android:layout_width="75dp"
+        android:layout_height="105dp"
+        android:background="@drawable/banner4" />
+
+    <Button
+        android:id="@+id/banner5"
+        android:layout_width="75dp"
+        android:layout_height="105dp"
+        android:background="@drawable/banner5" />
+
+</LinearLayout>
